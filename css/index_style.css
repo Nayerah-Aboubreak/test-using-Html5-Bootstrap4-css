@@ -1,0 +1,474 @@
+
+
+
+.navbar
+{
+    z-index: 3px;
+    background-color:steelblue !important;
+}
+.home .carousel-item
+{
+    position: relative;
+}
+
+.home .carousel-item .title
+{
+   position: absolute;
+   top: 40%;
+   left:22%;
+  
+}
+.home h1
+{
+    color: #ffffff;
+    font-size: 70px !important;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    animation-name: fadeInRight; 
+    animation-duration: 1s;
+}
+
+@keyframes fadeInRight
+{
+   0%{right: 1400px; top: 0 ; transform: rotateY(0deg);}
+   50%{left: 1100; top: 0;transform: rotateY(0deg);}
+   100%{left: 0; top: 0;transform: rotateY(0deg);}
+}
+/*----------- About ----------------*/
+.about h2
+{
+    font-size: 5rem;
+    position: relative;
+    color: rgb(212, 211, 211);
+
+}
+.about h3
+{
+    font-size: 3rem;
+    font-weight: 500;
+    position: absolute;
+    color: black;
+}
+.about .line
+{
+    width: 50px;
+    height: 2px;
+    background-color:black;
+    margin: auto;
+    transition: all 1s;
+}
+.about:hover .line
+{
+    width: 100px;
+}
+/*----------------------*/
+.team h2
+{
+    font-size: 5rem;
+    position: relative;
+    color: rgb(212, 211, 211);
+
+}
+.team h3
+{
+    font-size: 3rem;
+    font-weight: 500;
+    position: absolute;
+    color: black;
+}
+.team .line
+{
+    width: 50px;
+    height: 2px;
+    background-color:black;
+    margin: auto;
+    transition: all 1s;
+}
+.team:hover .line
+{
+    width: 100px;
+}
+.team h5
+{
+    transition: all 0.5s;
+}
+.team .card:hover h5
+{
+    color: red;
+}
+.team .image
+{
+    overflow: hidden;
+    position: relative;
+}
+.team img
+{
+    transition: transform ;
+    transition-duration: 0.5s;
+}
+.team .image:hover img
+{
+    transform: scale(1.25);
+}
+.team .layer
+{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    background-color: rgba(248, 60, 60, 0.8);
+    transition: all 0.5s;
+}
+.team .image:hover .layer
+{
+    visibility: visible;
+}
+/*----------------------*/
+
+.projects 
+{
+    background-color: rgb(240, 243, 248);
+}
+.projects h2
+{
+    font-size: 5rem;
+    position: relative;
+    color: rgb(212, 211, 211);
+
+}
+.projects h3
+{
+    font-size: 3rem;
+    font-weight: 500;
+    position: absolute;
+    color: black;
+}
+.projects .line
+{
+    width: 50px;
+    height: 2px;
+    background-color:black;
+    margin: auto;
+    transition: all 1s;
+}
+.projects:hover .line
+{
+    width: 100px;
+}
+.projects .list
+{
+    margin: auto;
+    justify-content: space-around;
+}
+.projects ul
+{
+    list-style: none;
+}
+.projects li
+{
+    transition: all 0.5s;
+}
+.projects li:hover
+{ 
+    color: red;
+    border: 1px solid red;
+    border-radius: 30px;
+}
+.projects .image
+{
+    overflow: hidden;
+    position: relative;
+}
+.projects img
+{
+    transition: transform ;
+    transition-duration: 0.5s;
+}
+.projects .image:hover img
+{
+    transform: scale(1.25);
+}
+.projects .layer
+{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    background-color: rgba(250, 245, 245, 0.8);
+    transition: all 0.5s;
+}
+.projects .image:hover .layer
+{
+    visibility: visible;
+}
+.projects .layer .cont
+{
+    margin-top: 45%;
+}
+.ques
+{
+        margin: auto;
+}
+/*----------------------*/
+.services
+{
+    background-color: rgb(240, 243, 248);
+}
+.services h2
+{
+    font-size: 5rem;
+    position: relative;
+    color: rgb(212, 211, 211);
+
+}
+.services h3
+{
+    font-size: 3rem;
+    font-weight: 500;
+    position: absolute;
+    color: black;
+}
+.services .line
+{
+    width: 50px;
+    height: 2px;
+    background-color:black;
+    margin: auto;
+    transition: all 1s;
+}
+.services:hover .line
+{
+    width: 100px;
+}
+.services .col-md-3
+{
+    text-align: center;
+}
+.services .col-md-4 h4
+{
+    transition: all 0.5s;
+    padding: 15px 0px;
+}
+.services .col-md-4 h4:hover
+{
+    color: red;
+}
+
+/*--------------------------*/
+.video .container
+{
+    position: relative;
+}
+.video .video-layer
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+}
+.video h3
+{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 60px;
+}
+.video .line
+{
+    width: 50px;
+    height: 2px;
+    background-color:#ffffff;
+    margin: auto;
+    transition: all 1s;
+}
+.video:hover .line
+{
+    width: 100px;
+}
+/*------------------------*/
+.client h2
+{
+    font-size: 5rem;
+    position: relative;
+    color: rgb(212, 211, 211);
+
+}
+.client h3
+{
+    font-size: 3rem;
+    font-weight: 500;
+    position: absolute;
+    color: black;
+}
+.client .line
+{
+    width: 50px;
+    height: 2px;
+    background-color:black;
+    margin: auto;
+    transition: all 1s;
+}
+.client:hover .line
+{
+    width: 100px;
+}
+/*------------------*/
+.counter
+{
+    background-color: rgb(32, 31, 31);
+}
+.counter .row
+{
+    margin: auto;
+    color: rgb(226, 218, 205);
+    text-align: center;
+}
+.counter .row p
+{
+    font-size: 2rem;
+    font-weight: 900;
+}
+/*--------------------*/
+.blog
+{
+    background-color: rgb(240, 243, 248);
+}
+.blog .partone h2
+{
+    font-size: 5rem;
+    position: relative;
+    color: rgb(212, 211, 211);
+
+}
+.blog .partone  h3
+{
+    font-size: 3rem;
+    font-weight: 500;
+    position: absolute;
+    color: black;
+}
+.blog .partone .line
+{
+    width: 50px;
+    height: 2px;
+    background-color:black;
+    margin: auto;
+    transition: all 1s;
+}
+.blog .partone:hover .line
+{
+    width: 100px;
+}
+.blog .col-md-4 img
+{
+    width: 100%;
+    transition: transform ;
+    transition-duration: 0.5s;
+}
+.blog .col-md-4 h4
+{
+    transition: all 0.5s;
+}
+.blog .col-md-4 h4:hover 
+{
+    color: red;
+}
+
+.blog .row .col-md-4 .image
+{
+     width: 100%;
+     overflow: hidden;
+     position: relative;
+}
+
+.blog .row .col-md-4 .image:hover img
+{
+    transform: scale(1.25);
+}
+
+.blog .card-body .title
+{
+    border-radius: 5px;
+    margin: auto;
+    position: relative;
+    bottom: 220px;
+    left: 112px;
+    width: 35%;
+    padding-top: 10px !important;  
+}
+.blog .card-body .title h6
+{
+    font-size: .7rem;
+    color: antiquewhite;
+    padding: 0px 3px;
+}
+/*-----------------*/
+.contact h2
+{
+    font-size: 5rem;
+    position: relative;
+    color: rgb(212, 211, 211);
+
+}
+.contact h3
+{
+    font-size: 3rem;
+    font-weight: 500;
+    position: absolute;
+    color: black;
+}
+.contact .line
+{
+    width: 50px;
+    height: 2px;
+    background-color:black;
+    margin: auto;
+    transition: all 1s;
+}
+.contact:hover .line
+{
+    width: 100px;
+}
+
+.contact .col-md-10 h5
+{
+    transition: all;
+}
+.contact .col-md-10 h5:hover
+{
+    color: red;
+}
+/*---------------------*/
+.last
+{
+    background-color: rgb(32, 31, 31);
+}
+.last ul
+{
+    list-style: none;
+}
+.last h4
+{
+    color: #ffffff;
+}
+
+.last .col-md-3 p
+{ 
+    border: 1px solid rgb(187, 186, 186);
+    border-radius: 5px;
+    margin: auto;
+    display:block;
+}
+/*-------------------------*/
+.ftr
+{
+    background-color: black;
+}
